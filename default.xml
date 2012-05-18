@@ -287,6 +287,7 @@
 <!--
    Bewlow git projects taken from CM9
 -->
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="refs/heads/ics" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="refs/heads/ics" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="refs/heads/ics" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/ics" />
