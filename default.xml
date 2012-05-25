@@ -234,7 +234,9 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+<!-- Provision app is not needed because we are going to use Setupwizard from Google Apps
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+-->
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -245,9 +247,13 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
+<!-- LatinIME from AOSP is not needed, i am replacing it with the LatinIME from CM9
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+-->
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+<!-- PinyinIME is not needed because it takes a lot of space 
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+-->
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -294,6 +300,7 @@
 
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="refs/heads/ics" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="refs/heads/ics" />
 
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="refs/heads/ics" />
 
@@ -304,6 +311,4 @@
   <project path="hardware/atheros_wifi_libs" name="vegaics/atheros_wifi_libs" remote="github" revision="refs/heads/master"/>
   <project path="device/nvidia/shuttle" name="scanno/android_device_nvidia_shuttle" remote="github" revision="refs/heads/master" />
   <project path="android" name="scanno/vegacream" remote="github" revision="refs/heads/master" />
-
-
 </manifest>
