@@ -154,7 +154,9 @@
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
+<!-- Replaced by CM9 version
   <project path="external/sqlite" name="platform/external/sqlite" />
+-->
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
@@ -275,7 +277,9 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
+<!-- Replaced by CM9 version
   <project path="system/extras" name="platform/system/extras" />
+-->
   <project path="system/media" name="platform/system/media" />
 <!--
   <project path="system/netd" name="platform/system/netd" />
@@ -297,11 +301,13 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="refs/heads/ics" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="refs/heads/ics" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/ics" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" revision="refs/heads/ics" />
 
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="refs/heads/ics" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="refs/heads/ics" />
 
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="refs/heads/ics" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="refs/heads/ics" />
 
 
