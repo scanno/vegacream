@@ -23,7 +23,7 @@
   <remote  name="github"
            fetch="git://github.com/"  />
 
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 
@@ -252,7 +252,9 @@
 <!-- LatinIME from AOSP is not needed, i am replacing it with the LatinIME from CM9
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
 -->
+<!-- OpenWnn is not really needed
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+-->
 <!-- PinyinIME is not needed because it takes a lot of space 
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 -->
