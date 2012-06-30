@@ -184,7 +184,9 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+<!--
   <project path="frameworks/base" name="platform/frameworks/base" />
+-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -296,6 +298,7 @@
   <project path="system/netd" name="vegaics/netd" remote="github" revision="refs/heads/master"/>
 
   <project path="external/tinyalsa" name="tinyalsa/tinyalsa" remote="github" revision="refs/heads/master"/>
+  <project path="frameworks/base" name="scanno/android_frameworks_base" remote="github" revision="refs/heads/master"/>
 <!--
    Bewlow git projects taken from CM9
 -->
